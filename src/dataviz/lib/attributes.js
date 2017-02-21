@@ -1,7 +1,7 @@
 var each = require("../../core/utils/each");
-var chartOptions = require("./chartOptions"),
-    chartType = require("./chartType"),
-    library = require("./library");
+var chartOptions = require("./chartOptions");
+var chartType = require("./chartType");
+var library = require("./library");
 
 module.exports = function(obj){
   if (!arguments.length) return this.view["attributes"];
